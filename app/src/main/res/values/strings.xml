@@ -3,4 +3,6 @@
     <string name="ciudad">Tlaxcala</string>
     <string name="grados">0°</string>
     <string name="estatus">Soleado</string>
+    <string name="ciudadpue">Puebla</string>
+    <string name="Subt">Selecciona tu Ciudad</string>
 </resources>
