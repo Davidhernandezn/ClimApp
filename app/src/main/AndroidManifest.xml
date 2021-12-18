@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ClimApp">
         <activity
-            android:name=".Ciudades"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Ciudades"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>

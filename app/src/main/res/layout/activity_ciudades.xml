@@ -18,14 +18,14 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btlaxcala"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="7dp"
         android:text="@string/ciudad" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/bpuebla"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="7dp"
