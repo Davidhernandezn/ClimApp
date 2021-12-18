@@ -8,6 +8,8 @@ import android.widget.Button
 import android.widget.Toast
 
 class Ciudades : AppCompatActivity() {
+    val TAG = "com.davidhernandezn.climapp.ciudades.CIUDAD"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         Thread.sleep(2000)//no recomendado
         setTheme(R.style.Theme_ClimApp)
@@ -20,12 +22,14 @@ class Ciudades : AppCompatActivity() {
         btnTlaxcala.setOnClickListener (View.OnClickListener {
             //Toast.makeText(this, "Tlaxcala City", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, MainActivity::class.java)
+            intent.putExtra(TAG, "cd-tlaxcala")
             startActivity(intent)
         })
 
         btnPuebla.setOnClickListener (View.OnClickListener {
             //Toast.makeText(this, "Cd Puebla", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, MainActivity::class.java)
+            intent.putExtra(TAG, "cd-puebla")
             startActivity(intent)
         })
     }
