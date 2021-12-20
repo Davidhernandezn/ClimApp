@@ -22,14 +22,14 @@ class Ciudades : AppCompatActivity() {
         btnTlaxcala.setOnClickListener (View.OnClickListener {
             //Toast.makeText(this, "Tlaxcala City", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, MainActivity::class.java)
-            intent.putExtra(TAG, "cd-tlaxcala")
+            intent.putExtra(TAG, "3815415")
             startActivity(intent)
         })
 
         btnPuebla.setOnClickListener (View.OnClickListener {
             //Toast.makeText(this, "Cd Puebla", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, MainActivity::class.java)
-            intent.putExtra(TAG, "cd-puebla")
+            intent.putExtra(TAG, "3521081")
             startActivity(intent)
         })
     }
